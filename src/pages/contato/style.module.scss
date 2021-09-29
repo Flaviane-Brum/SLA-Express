@@ -1,0 +1,17 @@
+.contato {
+  padding: 4rem 1rem;
+
+  .contatoGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+    gap: 2rem;
+    @media (max-width: 40rem) {
+      grid-template-columns: 1fr;
+    }
+    form {
+      width: 94%;
+      max-width: 400px;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.button {
+  font-size: 1rem;
+  font-family: var(--type-first);
+  cursor: pointer;
+  border: none;
+  border-radius: 0.4rem;
+  background: var(--gray-900);
+  box-shadow: 0 0 0 2px var(--yellow-500);
+
+  color: var(--white-900);
+  min-width: 8rem;
+  padding: 0.8rem 1.2rem;
+  box-sizing: border-box;
+  transition: 0.1s;
+  margin-top: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    outline: none;
+    background: var(--yellow-500);
+    box-shadow: 0 0 0 3px var(--gray-700);
+    border-color: var(--white-100);
+    color: var(--yellow-100);
+  }
+  &:disabled {
+    opacity: 0.5;
+    cursor: wait;
+  }
+}

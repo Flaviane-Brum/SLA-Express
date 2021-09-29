@@ -1,0 +1,43 @@
+.footer {
+  background: var(--yellow-500);
+  padding: 3rem 1rem 0;
+  height: 5rem;
+  color: var(--white);
+  font-family: var(---type-first);
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+
+  p {
+    margin-right: 1.5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    color: #764701;
+    svg {
+      margin: 0 0.5rem;
+    }
+  }
+
+  a {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    transition: 0.1s;
+    cursor: pointer;
+    right: 10px;
+    padding: 0;
+    position: relative;
+    bottom: 5px;
+    color: var(--light-red);
+    svg {
+      &:hover {
+        fill: var(--gray-200);
+      }
+    }
+  }
+}

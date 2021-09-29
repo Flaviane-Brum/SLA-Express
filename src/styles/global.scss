@@ -1,0 +1,113 @@
+:root {
+  --white-900: #ffffff;
+  --white-100: #faf6ed;
+  --gray-100: #afafaf;
+  --gray-200: #525252; //divisor
+  --gray-700: #15171b; //bg-header
+  --gray-900: #111113;
+  --blue-900: #1fa4e5; //buttons
+  --yellow-100: #764701;
+  --yellow-500: #fb1;
+  --type-first: "Roboto", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+html,
+body {
+  scroll-padding-top: 120px;
+}
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--white);
+  font-family: Helvetica, sans-serif;
+
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    326deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(17, 17, 19, 1) 58%,
+    rgba(82, 82, 82, 1) 100%
+  );
+  -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: var(--type-first);
+}
+p {
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: Helvetica, sans-serif;
+  cursor: pointer;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+button,
+input {
+  display: block;
+  font-size: 1rem;
+  font-family: var(---type-first);
+  color: #333;
+}
+
+.animeLeft {
+  transform: translateX(-50px);
+  animation: animeLeft 0.8s forwards;
+}
+@keyframes animeLeft {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}
+
+.animeTop {
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: animeTop 0.8s forwards;
+}
+@keyframes animeTop {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}
+
+.animeBottom {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: animeBottom 0.8s forwards;
+}
+@keyframes animeBottom {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}

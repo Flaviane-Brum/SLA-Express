@@ -1,0 +1,19 @@
+.span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: block;
+  border-top: 5px solid var(--yellow-500);
+  border-bottom: 5px solid var(--yellow-500);
+  border-left: 5px solid var(--yellow-500);
+
+  border-right: 5px solid transparent;
+  margin-top: 1rem;
+  animation: Rotate 1s infinite;
+}
+@keyframes Rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+}

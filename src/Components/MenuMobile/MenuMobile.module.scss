@@ -1,0 +1,35 @@
+.menuMobile {
+  display: block;
+  position: absolute;
+  right: 0px;
+  padding: 0 1rem;
+  background: var(--gray-700);
+  box-shadow: 0 2px 2px #0002;
+  border-radius: 0.4rem;
+  transform: translateX(-10px);
+  opacity: 0;
+  width: 171px;
+  z-index: 99999;
+  &.activeMobile {
+    top: 99px;
+
+    ul {
+      li {
+        padding: 1rem;
+
+        & + li {
+          border-top: 1px solid var(--gray-200);
+        }
+
+        a {
+          padding: 0.5rem;
+          display: block;
+
+          text-transform: uppercase;
+          transition: 0.1s;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

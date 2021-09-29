@@ -1,0 +1,48 @@
+.servico {
+  padding: 4rem 1rem;
+
+  .servicoGrid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+    @media (max-width: 40rem) {
+      grid-template-columns: 1fr;
+    }
+    h2 {
+      margin-bottom: 1rem;
+      font-weight: 300;
+      color: var(--blue-900);
+      text-shadow: 2px 2px 2px rgb(0 0 0 / 60%);
+    }
+
+    .tabelaPrecos {
+      margin-top: 2rem;
+      border-radius: 0.4rem;
+    }
+    .listaServico {
+      margin-top: 2rem;
+      border-radius: 0.4rem;
+
+      ul {
+        li {
+          padding: 0.6rem;
+          font-size: 1rem;
+          color: var(--white-100);
+          &::before {
+            content: "";
+            width: 20px;
+            display: inline-block;
+            height: 2px;
+            position: relative;
+            bottom: 4px;
+            border-radius: 0.4rem;
+
+            margin-right: 5px;
+            background-color: var(--yellow-500);
+          }
+        }
+      }
+    }
+  }
+}

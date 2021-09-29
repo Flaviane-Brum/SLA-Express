@@ -1,0 +1,62 @@
+.tabela {
+  border-collapse: separate;
+  width: 100%;
+  border-color: #fff;
+  font-size: 1rem;
+  max-width: 400px;
+  color: var(--white-100);
+  font-weight: bold;
+
+  border-radius: 0.4rem;
+  @media (max-width: 40rem) {
+    max-width: 100%;
+    width: 100%;
+  }
+  thead {
+    th {
+      background-color: var(--yellow-500);
+      padding: 8px;
+      border-top-left-radius: 0.2rem;
+      &:nth-child(2) {
+        border-radius: 0;
+        border-top-right-radius: 0.2rem;
+      }
+    }
+    td {
+      text-align: center;
+      color: var(--gray-900);
+      border-radius: 0;
+      font-weight: bold;
+    }
+  }
+  tbody {
+    td {
+      text-align: center;
+
+      padding: 0.5rem 1rem;
+    }
+  }
+  th {
+    color: var(--gray-900);
+    font-weight: bold;
+    border-radius: 0;
+  }
+  tr {
+    &:nth-child(even) {
+      background-color: var(--gray-100);
+      color: var(--gray-900);
+      font-weight: bold;
+    }
+  }
+  tfoot {
+    th {
+      background-color: var(--yellow-500);
+      padding: 8px;
+      border-bottom-right-radius: 0.2rem;
+      border-bottom-left-radius: 0.2rem;
+
+      padding: 8px;
+      background-color: var(--yellow-500);
+    }
+  }
+}
