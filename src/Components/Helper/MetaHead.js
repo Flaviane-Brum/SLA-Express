@@ -17,7 +17,7 @@ const MetaHead = (props) => (
       property="og:description"
       content={props.desc}
     />
-    <meta property="og:url" content="https://slaexpress.netlify.app/" />
+    <meta property="og:url" content="https://sla-express.vercel.app/" />
     <meta name="author" content="Flaviane Brum" />
     {/*  link manifest.json  */}
     <link rel="manifest" href="/manifest.json" />
@@ -27,7 +27,7 @@ const MetaHead = (props) => (
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="icon" href="/favicon.ico" />
-    <link rel="canonical" href="https://slaexpress.netlify.app/" />
+    <link rel="canonical" href="https://sla-express.vercel.app/" />
   </Head>
 );
 export default MetaHead;

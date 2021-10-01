@@ -50,7 +50,7 @@ $ npm run start
 $ npm install emailjs-com --save
 ```
 
-## Variaveis de ambiente
+## Variáveis de ambiente
 
 <p>Para usar o EmailJS, você vai precisar das seguintes variaveis de ambiente:</p>
 
