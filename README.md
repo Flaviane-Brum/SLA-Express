@@ -18,7 +18,12 @@ Website feito para um motoboy, com as informações de preços e contato. Onde o
   <h3 align="left" >:iphone: Mobile</h3>
   <img   src="https://user-images.githubusercontent.com/77207253/135362270-e98aa090-7670-425f-9d5a-7b2a4ca95127.gif"  />
 </div>
-
+<div>
+<p>Você pode conferir o resultado final em: 
+<a href="https://sla-express.vercel.app/"> https://sla-express.vercel.app
+</a>
+</p>
+</div>
  <h2> :dart: Objetivo do projeto</h2>
   <p>Este projeto foi desenvolvido para colocar em pratica os conceitos aprendidos em Next.js</p>
 
@@ -52,7 +57,7 @@ $ npm install emailjs-com --save
 
 ## Variáveis de ambiente
 
-<p>Para usar o EmailJS, você vai precisar das seguintes variaveis de ambiente:</p>
+<p>Para usar o EmailJS, você vai precisar das seguintes variáveis de ambiente:</p>
 
 ```bash
     NEXT_PUBLIC_SERVICE_ID: "YOUR_SERVICE_ID"
@@ -82,11 +87,11 @@ emailjs
 <h2> 🛠 Tecnologias </h2>
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- React
+- HTML5
+- CSS Modules
+- Sass
 - NextJS
 - EmailJS
-- Sass
-- CSS Modules
 - Context API
 
 Made with :hearts: by Flaviane Brum.
