@@ -87,7 +87,6 @@ emailjs
 <h2> 🛠 Tecnologias </h2>
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- HTML5
 - CSS Modules
 - Sass
 - NextJS
